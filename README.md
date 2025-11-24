@@ -8,6 +8,13 @@ A simplified ResNet-style convolutional neural network trained on the CIFAR-10 d
 - Complete training/evaluation pipeline with timing, loss/error tracking, and softmax-based predictions  
 - Random test-image visualization with class confidence scores  
 
+## Results
+
+*Final test error:* ~9.85%  
+*Final test accuracy:* ~90.15%
+
+See /train.ipynb for full logs and evaluation.
+
 ## Files
 - model.py – network definition (residual blocks + classifier)  
 - train.ipynb – end-to-end training and evaluation notebook  

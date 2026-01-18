@@ -11,12 +11,12 @@ A simplified ResNet-style convolutional neural network trained on the CIFAR-10 d
 ## Results
 
 Final test accuracy: ~90.15%
-(See train.ipynb for full logs and evaluation)
+(See `train.ipynb` for full logs and evaluation)
 
 ## Files
-- model.py – network definition (residual blocks + classifier)  
-- train.ipynb – end-to-end training and evaluation notebook  
-- utils.py – helper functions for loading data and plotting  
+- `model.py` – network definition (residual blocks + classifier)  
+- `train.ipynb` – end-to-end training and evaluation notebook  
+- `utils.py` – helper functions for loading data and plotting  
 
 ## Skills Demonstrated
 Python, PyTorch, CNNs, Deep Learning, GPU training, Model evaluation, Visualization

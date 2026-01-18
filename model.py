@@ -1,3 +1,8 @@
+"""
+ResNet-style convolutional neural network for CIFAR-10 (PyTorch).
+Includes residual blocks, batch normalization, and a classification head.
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
